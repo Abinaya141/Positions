@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.fixed {
+  background-color: rgb(252, 255, 59);
+  color: rgb(255, 0, 0);
+  position: fixed;
+  font-size: x-large;
+}
+.sticky {
+  position: sticky;
+  font-size: x-large;
+}
+.static {
+  background-color: rgb(192, 28, 28);
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  color: white;
+  margin: 5px;
+  position: static;
+}
+.relative {
+  background-color: rgb(252, 128, 27);
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  color: white;
+  border: 1px solid;
+  position: relative;
+  left: 50px;
+}
+.absolute {
+  background-color: rgb(238, 215, 5);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  color: white;
+  border: 1px solid;
+  position: absolute;
+}
